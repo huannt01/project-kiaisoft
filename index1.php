@@ -32,13 +32,8 @@
     //     ->orderBy('id', 'DESC')
     //     ->limit(3)
     //     ->get();
-
-    $hot = App\Models\Product::where('status', 1)
-        ->where('hot_deal', 1)
-        ->orderBy('id', 'DESC')
-        ->limit(3)
-        ->get();
-    @endphp
+     
+    <h1>Hello World</h1>
     <!-- Characteristics -->
     <div class="characteristics">
         <div class="container">
