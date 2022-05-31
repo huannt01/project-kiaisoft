@@ -83,10 +83,7 @@
                         <div class="char_content">
                             <div class="char_title">Free Delivery</div>
                             <div class="char_subtitle">from $50</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
@@ -385,10 +382,12 @@
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     @endforeach
                 @else
                     <!-- Banner 2 Slider Item -->
@@ -1947,12 +1946,14 @@
                                         <li class="item_mark item_discount">-25%</li>
                                         <li class="item_mark item_new">new</li>
                                     </ul>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -2096,12 +2097,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">Add to cart</button>
                             </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
 
 
@@ -2231,4 +2227,3 @@
         //
     </script>
 @endsection
-
