@@ -16,14 +16,9 @@ class PaymentController extends Controller
     public function PaymenProcess(Request $request) {
         $setting = Setting::first();
         $carts = Cart::content();
-        $data = [
-            'name' => $request->name,
-            'phone' => $request->phone,
-            'email' => $request->email,
-            'address' => $request->address,
-            'city' => $request->city,
-            'payment' => $request->payment
-        ];
+        if (condition) {
+            # code...
+        }
 
         if ($request->payment == 'stripe') {
             return view('frontend.payment.stripe', compact('data', 'setting', 'carts'));
