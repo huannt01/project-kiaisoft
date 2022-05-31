@@ -1,3 +1,4 @@
+
 @extends('frontend.main_master')
 @section('content')
     @include('frontend.body.menubar')
@@ -2230,3 +2231,4 @@
         //
     </script>
 @endsection
+
